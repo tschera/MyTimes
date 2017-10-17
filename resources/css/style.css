@@ -1,3 +1,5 @@
+/* Moving Header */
+
 #header {
   font-family: Verdana;
   font-size: 14px;
@@ -8,18 +10,55 @@
   justify-content: space-between;
   padding-bottom: 10px;
 }
-.tophead {
+.topHead {
   display: inline-flex;
   align-items: center;
 }
-.tophead p {
+.topHead p {
   color: MediumAquamarine;
   padding-left: 10px;
 }
-.topnav li{
+.topNav li{
   display: inline-block;
   padding: 10px;
 }
-.topnav a{
+.topNav a{
   color: black;
+}
+
+/* Main Body */
+#body {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border: thin solid black;
+}
+.story {
+  border: bold solid black;
+}
+.story p {
+  border: thin solid black;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  border: thin solid black;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+.overimg {
+  border: thin solid red;
+}
+.sideNav {
+  border: bold solid black;
+}
+.sideNav li {
+  border: thin solid black;
 }
