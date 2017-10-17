@@ -1,0 +1,25 @@
+#header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: thin solid black;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.tophead {
+  display: inline-flex;
+  align-items: center;
+}
+.tophead p {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+.topnav li{
+  display: inline-block;
+  padding: 10px;
+}
+.topnav a{
+  color: black;
+}
